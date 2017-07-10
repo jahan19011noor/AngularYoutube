@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 8</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript" src="tutorial08.js"></script>
+</head>
+<body ng-app="app">
+    <div ng-controller="ctrl">
+
+        <div>
+            Value of a = {{a}},
+            But you can change to
+            <input type="text" ng-model="a"><br>
+
+            Value of b = {{b}},
+            But you can change to
+            <input type="text" ng-model="b"><br>
+        </div>
+
+        Sum = {{sum}}<br>
+        <button ng-click="doSum()">Calculate</button>
+    </div>
+</body>
+</html>
+
+<!--*************       Notes        *************-->
+
+<!--    ▪	Service: unit o code which can be reused in different controllers-->
+<!--    ▪	Contains utilities or Business Logics-->
+<!--    ▪	Is a singleton-->
+<!--        ⁃	Instantiated once only-->
+<!--        ⁃	Used throughout life time of app-->
+<!--            ⁃	where as controllers are created as they are needed and destroyed if not in use-->
+<!--    ▪	Instantiated lazily-->
+<!--        ⁃	only when controller (referring to the respective service) is instantiated-->
+<!--    ▪	Multiple services can be used by multiple controllers as well as multiple services-->
+
+<!--*************       Notes        *************-->
