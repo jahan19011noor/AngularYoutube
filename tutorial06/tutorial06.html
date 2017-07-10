@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tutorial 1</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script type="text/javascript" src="tutorial06.js"></script>
+    </head>
+    <body ng-app="app" ng-controller="ctrl as c">
+        <div ng-controller="ctrl">
+            Value of a = {{a}}<br>
+            Value of b = {{b}}
+
+            <hr>
+            <h4>One Way Binding</h4>
+            <!--the value of a replaces the text of the span by angular-->
+            <!--this is an example of one way binding-->
+            Value of a = <span ng-bind="a">ass</span><br>
+            Value of b = <span ng-bind="b"></span>
+
+            <hr>
+            <h4>One Time Binding</h4>
+            <h5>Initial value of a = {{::a}}</h5>
+            <h6>Although the value of a is changing the value here remains the same as the initial value as it is being passed only at the beginning for the only time</h6>
+            Sum = {{sum}}<br>
+            <button ng-click="doubleAndSum()">Calculate</button>
+
+            <hr>
+            <h4>Two Way Binding</h4>
+                <p>Change the value of a here:</p>
+                <input ng-model="a" type="text"><br>
+                <p>New value of a = {{a}}</p>
+
+                <p>Change the value of b here:</p>
+                <input ng-model="b" type="text">
+                <p>New value of b = {{b}}</p>
+
+        </div>
+    </body>
+</html>
+
+<!--*************       Notes        *************-->
+
+<!--One Way Binding-->
+    <!--Data flows from Scope/Controller to Markup/View-->
+    <!--If Scope data gets modified -->
+        <!--it is immediately propagated to view
+        <!--vice versa not happening-->
+    <!--achieved with "ng-bind"-->
+
+<!--Two Way Binding-->
+    <!--Data flows from Scope/Controller to Markup/View and Vise Versa-->
+    <!--If Scope data gets modified -->
+        <!--it is immediately propagated to view-->
+        <!--and vice versa-->
+    <!--achieved with "ng-model"-->
+
+<!--One Time Binding-->
+    <!--Data flows from Scope/Controller to Markup/View only once-->
+    <!--If Scope data gets modified -->
+        <!--no more propagation to view happens-->
+    <!--No data gets transfered from View to Socpe-->
+    <!--achieved with "::"-->
+
+<!--*************       Notes        *************-->

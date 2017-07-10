@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript">
+        var app = angular.module("rootModule", []).run(["$rootScope", function ($rootScope) {
+            $rootScope.position = "Full Stack Software Engineer"
+        }]);
+//        var app = angular.module("rootModule", []);
+
+        app.controller("ctrl", ["$scope", function($scope){
+            $scope.name = "Noor Jahan"
+            $scope.sal = 20000
+        }])
+
+        app.controller("ctrlDetail", ["$scope", function($scope){
+            $scope.phone = "01731104987"
+            $scope.yearlySal = function () {
+                return this.sal * 12
+            }
+        }])
+
+        app.controller("ctrlAddress", ["$scope", "$rootScope", function($scope, $rootScope){
+            $scope.address = "Mirpur #6, Dhaka 1216"
+            $scope.atYearSal = $scope.yearlySal()
+            $rootScope.position = "Software Engineer"
+        }])
+    </script>
+</head>
+<body ng-app="rootModule">
+<div ng-controller="ctrl">
+    <h4>First Controller</h4>
+    Hello {{name}}!<br>
+    Position: {{position}}<br><br><br><br>
+    <div ng-controller="ctrlDetail">
+        <h4>Second Controller</h4>
+        Your detail: <br>
+        Name: {{name}}<br>
+        Phone: {{phone}}<br>
+        Position: {{position}}<br><br><br><br>
+        <div ng-controller="ctrlAddress">
+            <h4>Third Controller</h4>
+            Address: {{address}}<br>
+            Full Detail:<br>
+            Name: {{name}}<br>
+            Phone: {{phone}}<br>
+            Address: {{address}}<br>
+            Salary: {{sal}}<br>
+            Yearly Salary: {{atYearSal}}<br>
+            Position: {{position}}
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!--*************       Notes        *************-->
+<!--Rootscope is the scope of the root module-->
+<!--It gets greated when ng-app is assigned to a html element-->
+<!--Root scope can accessed by using the $rootScope-->
+<!--It can be used in the run() function associated with the module-->
+<!--or can be accessed in controllers-->
+<!--changing anything contained in the root scope in any child controller-->
+<!--changes it globally-->
+<!--*************       Notes        *************-->

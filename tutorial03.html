@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 02</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript">
+        var app = angular.module("rootModule", []);
+        app.controller("ctrl", ["$scope", function($scope){
+            $scope.name = "Noor Jahan"
+            $scope.sal = 200000
+            $scope.yearlySal = function(){
+                return (this.sal) * 12
+            }
+        }])
+
+        app.controller("customerInfo", ["$scope", function ($scope) {
+            $scope.name = "Noor"
+            $scope.address = "Mirpur Dhaka"
+        }])
+
+        app.controller("ctrlAsO", function(){
+            this.name = "Noor Jahan"
+        })
+
+        app.controller("hybrid", ["$scope", function ($scope){
+            $scope.name = "Noor Jahan"
+            this.first_name = "Noor"
+            this.last_name = "Jahan"
+        }])
+    </script>
+</head>
+<body ng-app="rootModule">
+<div ng-controller="ctrl">
+    Name: {{name}}
+    <br>
+    Sallary: {{yearlySal()}}
+</div>
+<div ng-controller="customerInfo">
+    Name: {{name}}
+    <br>
+    Sallary: {{address}}
+</div>
+
+<div ng-controller="ctrl as c">
+    Hello {{c.name}}!
+    Sum of two numbers: (1+2) : {{ 1+2 }}
+</div>
+
+<div ng-controller="hybrid as o">
+    Hello {{name}}!
+    <br>
+    First Name: {{o.first_name}}
+    <br>
+    Last Name: {{o.last_name}}
+</div>
+
+</body>
+</html>
+
+<!--*************       Notes        *************-->
+<!--A controller is a javascript object-->
+<!--which acts as a class constructor-->
+<!--The object/class called controller is instantiated when it is assigned to a html element-->
+<!--The assignment causes-->
+<!--first: a browser memory called $scope to be registered for the element-->
+<!--second: the function of the controller to be instantiated-->
+<!--The controller and the DOM Element both have access to the scope-->
+
+<!--When written as ctrl as c-->
+<!--c becomes an instance of the controller function-->
+<!--c is assigned as a property to the scope-->
+<!--c in turn now contains the properties and methods contained in the controller-->
+<!--*************       Notes        *************-->

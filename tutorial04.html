@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript">
+        var app = angular.module("rootModule", []);
+
+        app.controller("ctrl", ["$scope", function($scope){
+            $scope.name = "Noor Jahan"
+            $scope.sal = 20000
+        }])
+
+        app.controller("ctrlDetail", ["$scope", function($scope){
+            $scope.first_name = "Noor"
+            $scope.last_name = "Jahan"
+            $scope.yearlySal = function () {
+                return this.sal * 12
+            }
+        }])
+
+        app.controller("ctrlAddress", ["$scope", function($scope){
+            $scope.address = "Mirpur #6, Dhaka 1216"
+            $scope.atYearSal = $scope.yearlySal()
+        }])
+    </script>
+</head>
+<body ng-app="rootModule">
+    <div ng-controller="ctrl">
+        Hello {{name}}!<br>
+        {{first_name}}
+        <div ng-controller="ctrlDetail">
+            Your detail: <br>
+            Name: {{name}}<br>
+            First Name: {{first_name}}<br>
+            Last Name: {{last_name}}
+            <div ng-controller="ctrlAddress">
+                Address: {{address}}<br><br><br><br>
+                Full Detail:<br>
+                Name: {{name}}<br>
+                Address: {{address}}<br>
+                Salary: {{sal}}<br>
+                Yearly Salary: {{atYearSal}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--*************       Notes        *************-->
+<!--nested controllers inherit scope of the parent controller-->
+<!--concept called scope inheritence-->
+<!--vice versa not possible-->
+<!--each child scope has a prototype property "__proto__" which contains its parent elements scope-->
+<!--from there the child inherites the scope of its parent-->
+<!--*************       Notes        *************-->
