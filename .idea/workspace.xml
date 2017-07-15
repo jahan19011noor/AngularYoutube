@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3c2fd9-655e-49d0-891f-99c55ac79626" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/tutorial08.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/tutorial08.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/factory/factory_with_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/factory/factory_with_callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/factory/factory_without_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/factory/factory_without_callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/provider/provider_using_config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/provider/provider_using_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/provider/provider_with_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/provider/provider_with_callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/provider/provider_without_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/provider/provider_without_callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/service/service_with_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/service/service_with_callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/service/service_without_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial08/service/service_without_callback.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial08/tutorial08.html" afterPath="$PROJECT_DIR$/tutorial08/tutorial08.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial08/tutorial08.js" afterPath="$PROJECT_DIR$/tutorial08/tutorial08.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,41 +33,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tutorial06.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial06/tutorial06.html">
+      <file leaf-file-name="factory_with_callback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/factory/factory_with_callback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="64" column="53" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="64" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="335">
+              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorial02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial02.html">
+      <file leaf-file-name="factory_without_callback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/factory/factory_without_callback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorial07.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial07/tutorial07.html">
+      <file leaf-file-name="provider_with_callback.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_with_callback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tutorial07.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial07/tutorial07.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="56" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="56" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -63,8 +70,18 @@
       <file leaf-file-name="tutorial08.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorial08/tutorial08.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="provider_using_config.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_using_config.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,49 +90,57 @@
       <file leaf-file-name="tutorial08.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorial08/tutorial08.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="570">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorial06.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial06/tutorial06.js">
+      <file leaf-file-name="service_without_callback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/service/service_without_callback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorial03.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial03.html">
+      <file leaf-file-name="provider_using_config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_using_config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="679">
+              <caret line="55" column="3" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="55" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorial04.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial04.html">
+      <file leaf-file-name="provider_with_callback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_with_callback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="24" column="56" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="59" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorial05.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial05.html">
+      <file leaf-file-name="provider_without_callback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_without_callback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="354">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,6 +154,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>oSumservice</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,6 +176,23 @@
         <option value="$PROJECT_DIR$/tutorial06/tutorial06.html" />
         <option value="$PROJECT_DIR$/tutorial07/tutorial07.html" />
         <option value="$PROJECT_DIR$/tutorial07/tutorial07.js" />
+        <option value="$PROJECT_DIR$/tutorial08/factory_with_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/factory_without_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/factory/factory_with_callback.html" />
+        <option value="$PROJECT_DIR$/tutorial08/factory/factory_without_callback.html" />
+        <option value="$PROJECT_DIR$/tutorial08/factory/factory_without_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/service/service_without_callback.html" />
+        <option value="$PROJECT_DIR$/tutorial08/service/service_with_callback.html" />
+        <option value="$PROJECT_DIR$/tutorial08/service/service_without_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/service/service_with_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/factory_without_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/provider_without_callback.html" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/provider_with_callback.html" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/provider_with_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/provider_without_callback.js" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/provider_using_config.html" />
+        <option value="$PROJECT_DIR$/tutorial08/provider/provider_using_config.js" />
+        <option value="$PROJECT_DIR$/tutorial08/factory/factory_with_callback.js" />
         <option value="$PROJECT_DIR$/tutorial08/tutorial08.html" />
         <option value="$PROJECT_DIR$/tutorial08/tutorial08.js" />
       </list>
@@ -177,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,6 +260,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularYoutube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularYoutube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularYoutube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularYoutube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularYoutube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularYoutube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tutorial07" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -234,6 +334,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -246,7 +347,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial08/factory" />
       <recent name="$PROJECT_DIR$/tutorial06" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial08/provider" />
+      <recent name="$PROJECT_DIR$/tutorial08/factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,20 +451,22 @@
       <workItem from="1498679911246" duration="7158000" />
       <workItem from="1498834387962" duration="298000" />
       <workItem from="1499098361531" duration="7000" />
-      <workItem from="1499700207889" duration="5786000" />
+      <workItem from="1499700207889" duration="5847000" />
+      <workItem from="1499972662820" duration="1817000" />
+      <workItem from="1500066988504" duration="5287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18820000" />
+    <option name="totallyTimeSpent" value="25985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14609376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -370,7 +478,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -385,6 +492,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tutorial06/tutorial06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="53" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="64" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial07/tutorial07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial07/tutorial07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/tutorial08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial06/tutorial06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/tutorial08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tutorial06/tutorial06.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -512,14 +699,14 @@
     <entry file="file://$PROJECT_DIR$/tutorial02.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="840">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
@@ -527,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="450">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
@@ -535,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial05.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
+        <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
@@ -551,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial06/tutorial06.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="64" column="53" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="64" selection-end-column="53" />
+        <state relative-caret-position="960">
+          <caret line="64" column="53" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="64" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -567,24 +754,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial07/tutorial07.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="56" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="315">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/factory/factory_without_callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/factory/factory_with_callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/service/service_without_callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/service/service_with_callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/service/service_with_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_without_callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_with_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="56" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_with_callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_using_config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/factory/factory_with_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_using_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="55" column="3" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="55" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/provider/provider_without_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/factory/factory_without_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial08/service/service_without_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial08/tutorial08.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial08/tutorial08.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="570">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>

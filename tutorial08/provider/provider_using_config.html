@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <title>Tutorial 8</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <!--<script type="text/javascript" src="factprovider_with_callback.jsk.js"></script>-->
-    <script type="text/javascript" src="tutorial08.js"></script>
+    <script type="text/javascript" src="provider_with_callback.js"></script>
 </head>
 <body ng-app="app">
-    <div ng-controller="ctrl">
+<div ng-controller="ctrl">
 
-        <div>
-            Value of a = {{a}},
-            But you can change to
-            <input type="text" ng-model="a"><br>
+    <div>
+        <h4>Factory With Callback</h4>
+        Value of a = {{a}},
+        But you can change to
+        <input type="text" ng-model="a"><br>
 
-            Value of b = {{b}},
-            But you can change to
-            <input type="text" ng-model="b"><br>
-        </div>
-
-        Sum = {{sum}}<br>
-        <button ng-click="doSum()">Calculate</button>
+        Value of b = {{b}},
+        But you can change to
+        <input type="text" ng-model="b"><br>
     </div>
+
+    Sum = {{sum}}<br>
+    <button ng-click="doSum()">Calculate</button>
+</div>
 </body>
 </html>
 
